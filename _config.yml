@@ -1,7 +1,6 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      pygments
-gem: [jekyll-paginate, jekyll-gists]
 
 # Permalinks
 permalink:        pretty
@@ -10,17 +9,19 @@ permalink:        pretty
 title:            Ambika Gopalan
 tagline:          ''
 description:      ''
-url:              http://ambikagoplan.com
+url:              http://ambikagopalan.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Ambika Gopalan'
+  url:            http://ambikagopalan.com
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
 
+blog:			  'https://designbetter.substack.com/'
+
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/ambika-gopalan/
