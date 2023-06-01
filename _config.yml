@@ -1,28 +1,7 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      pygments
-plugins: [jekyll-paginate]
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Ambika Gopalan"
 
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            Ambika Gopalan
-tagline:          ''
-description:      ''
-url:              http://ambikagopalan.com
-baseurl:          /
-
-author:
-  name:           'Ambika Gopalan'
-  url:            http://ambikagopalan.com
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-blog:			  'https://designbetter.substack.com/'
-
-github:
-  repo:           https://github.com/ambika-gopalan/
+sass:
+  load_paths: 
+    - _sass
