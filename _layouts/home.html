@@ -34,11 +34,11 @@
           {% for p in site.data.publications %}
             <li>
             <h5 class="fw-light">
-              <a target="_blank" href="{{ p.url }}" class="link-underline link-secondary link-underline-opacity-0 link-underline-opacity-75-hover">
+              <a target="_blank" href="{{ p.url }}" class="link-underline link-dark link-underline-opacity-0 link-underline-opacity-75-hover">
                 {{ p.title }}
               </a>
             </h5>
-            <i>{{ p.date }}</i>
+            <i class="text-secondary fw-lighter">{{ p.date }}</i>
             <br />
             <br />
           </li>
